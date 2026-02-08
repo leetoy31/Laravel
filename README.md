@@ -7,7 +7,7 @@ A secure authentication system built with Laravel.
 
 ---
 
-## ✅ Features Already Working
+##  Features Already Working
 
 ### Authentication
 - User registration with email validation
@@ -39,7 +39,7 @@ A secure authentication system built with Laravel.
 
 ---
 
-## 🚧 What Still Needs to Be Done
+##  What Still Needs to Be Done
 
 ### High Priority
 - Add official HNU logo to login page
@@ -62,7 +62,7 @@ A secure authentication system built with Laravel.
 
 ---
 
-## 🧪 Test Accounts
+##  Test Accounts
 
 **Admin Account:**
 - Email: admin@test.com
@@ -76,7 +76,7 @@ A secure authentication system built with Laravel.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** Laravel 12.49.0
 - **Language:** PHP 8.2.12
@@ -86,7 +86,7 @@ A secure authentication system built with Laravel.
 
 ---
 
-## 🎯 Project Requirements Met
+##  Project Requirements Met
 
 | Requirement | Status |
 |------------|--------|
@@ -100,7 +100,7 @@ A secure authentication system built with Laravel.
 
 ---
 
-## 📊 Project Status
+##  Project Status
 
 **Completion:** 85%  
 **Status:** In Development  
