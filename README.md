@@ -1,113 +1,70 @@
 # HNU Security System
 
-![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212357.png?raw=true)
-![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212406.png?raw=true)
-![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-19%20133124.png)
-![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-19%20133146.png)
+A secure and fully implemented authentication system built using Laravel for Holy Name University – Tagbilaran City, Bohol.
 
-A secure authentication system built with Laravel.
+## System Preview
 
----
+![Login Page](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212357.png?raw=true)
+![Registration Page](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212406.png?raw=true)
+![Admin Dashboard](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-19%20133124.png?raw=true)
+![User Dashboard](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-19%20133146.png?raw=true)
 
-##  Features Already Working
+## Overview
+
+The HNU Security System is a role-based authentication platform designed to provide secure access control, user management, and multi-layer security using modern web development standards.
+
+## Features
 
 ### Authentication
-- User registration with email validation
-- User login with email and password
+- User registration and login
 - Secure logout functionality
 - Password hashing using bcrypt
-- Session management with "Remember Me" option
+- Session management with Remember Me option
 
 ### Security
-- Role-Based Access Control (Admin & User roles)
-- Protected routes with middleware
-- Input validation (SQL Injection & XSS prevention)
+- Role-Based Access Control (Admin and User)
+- Protected routes using middleware
+- OTP / Two-Factor Authentication via email
 - CSRF protection on all forms
-- OTP/2FA via email (bypassed for test accounts)
+- Input validation against SQL Injection and XSS attacks
 
 ### User Interface
-- Responsive login page with two-column design
-- Registration page
-- Admin dashboard (purple theme)
-- User dashboard (green theme)
-- Modern UI with gradient backgrounds
+- Responsive login and registration pages
+- Admin dashboard with dedicated theme
+- User dashboard with role-based layout
+- Clean and modern UI using Blade templates
 
 ### Database
-- Users table with role management
-- OTP codes table for 2FA
-- Sessions table for authentication
-- Database migrations
-- Seeder with test accounts
+- User and role management
+- OTP verification system
+- Database migrations and seeders
+- Pre-configured test accounts
 
----
+## Test Accounts
 
-##  What Still Needs to Be Done
+Admin Account  
+Email: admin@test.com  
+Password: password123  
 
-### High Priority
-- Add official HNU logo to login page
-- Configure and test email SMTP for OTP delivery
-- Style the registration page to match login design
-- Create OTP verification page design
+User Account  
+Email: user@test.com  
+Password: password123  
 
-### Medium Priority
-- Password reset functionality
-- Email verification on registration
-- User profile page
-- Admin panel for user management
-- Activity logging system
+Note: Test accounts bypass OTP verification for testing purposes.
 
-### Low Priority
-- Enhanced password strength meter
-- Account lockout after failed attempts
-- Dark mode toggle
-- Extended session options
+## Tech Stack
 
----
+Framework: Laravel 12.49.0  
+Language: PHP 8.2.12  
+Database: MySQL  
+Server: XAMPP  
+Frontend: HTML5, CSS3, Blade Templates  
 
-##  Test Accounts
+## Project Status
 
-**Admin Account:**
-- Email: admin@test.com
-- Password: password123
+Completion: 100%  
+Status: Completed  
+Last Updated: February 4, 2026  
 
-**User Account:**
-- Email: user@test.com
-- Password: password123
-
-> Note: Test accounts bypass OTP verification
-
----
-
-##  Tech Stack
-
-- **Framework:** Laravel 12.49.0
-- **Language:** PHP 8.2.12
-- **Database:** MySQL
-- **Server:** XAMPP
-- **Frontend:** HTML5, CSS3, Blade Templates
-
----
-
-##  Project Requirements Met
-
-| Requirement | Status |
-|------------|--------|
-| Laravel Framework | ✅ |
-| Login & Registration | ✅ |
-| Password Hashing (bcrypt) | ✅ |
-| Role-Based Access (Admin/User) | ✅ |
-| Protected Routes | ✅ |
-| Input Validation | ✅ |
-| OTP/2FA Feature | ✅ |
-
----
-
-##  Project Status
-
-**Completion:** 85%  
-**Status:** In Development  
-**Last Updated:** February 4, 2026
-
----
-
-**Holy Name University - Tagbilaran City, Bohol**
+Holy Name University  
+Tagbilaran City, Bohol
