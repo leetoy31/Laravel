@@ -3,7 +3,7 @@
 ![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212357.png?raw=true)
 ![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212406.png?raw=true)
 ![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-19%20133124.png)
-![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-04%20212406.png?raw=true)
+![image alt](https://github.com/leetoy31/Laravel/blob/main/Screenshot%202026-02-19%20133146.png)
 
 A secure authentication system built with Laravel.
 
